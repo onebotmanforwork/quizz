@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burro Quiz</title>
+
+    <link rel="stylesheet" href="./src/js/index.js">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <div class="inicio errouvaisumir" style="display: block;">
+        <table class="titulodogame">
+            <tr class="titulodogame">   
+                
+                <td class="separarumpouco"><h1 class="nomedogame">Quiz de matemática</h1></td>
+                
+            </tr>     
+        </table>
+       
+        <button class="opcoes start">Começar</button>     
+        <button class="opcoes instruction">Instrução</button>
+        <button class="opcoes credits">Créditos</button> 
+
+        <p class="quemfez">Feito por Samuel Vinicius 2024</p>
+    </div>
+
+    <div class="quest1 errouvaisumir" style="display: none;">
+        <button class="numbquest1">1.</button>
+        <h1 class="question1">Quanto é 1+1 = ?</h1>
+
+        <div class="alternativas1">
+            <button class="resposta1 errado">√-4</button>
+            <button class="resposta1 errado">5! - 3!</button>
+            <button class="resposta1 certo1">3^2-2^2-3</button>
+            <button class="resposta1 errado">6 - (-4)</button>
+        </div>
+
+        <p class="quemfez">Feito por um fã / Samuel Vinicius 2023</p>
+    </div>
+
+    <div class="quest2 errouvaisumir" style="display: none;">
+        <button class="numbquest2">2.</button>
+        <h1 class="question2">2^(x) = 32</h1>
+
+        <div class="alternativas2" >
+            <button class="resposta2 certo2">5</button>
+            <button class="resposta2 errado">4</button>
+            <button class="resposta2 errado">6</button>
+            <button class="resposta2 errado">3</button>
+        </div>
+
+        <p class="quemfez">Feito por Samuel Vinicius 2024</p>
+    </div>
+
+    <div class="quest3 errouvaisumir" style="display: none;">
+        <button class="numbquest3">3.</button>
+        <h1 class="question3">Qual é o resultado de 6 x 8 + 2?</h1>
+
+        <div class="alternativas3" >
+            <button class="resposta3 ajeitar errado">44</button>
+            <button class="resposta3 certo3">50</button>
+            <button class="resposta3 ajeitar errado">56</button>
+            <button class="resposta3 errado">63</button>
+        </div>
+
+        <p class="quemfez">Feito por Samuel Vinicius 2024</p>
+    </div>
+
+    <div class="quest4 errouvaisumir" style="display: none;">
+        <button class="numbquest4">4.</button>
+        <h1 class="question4">Qual é o nome da linha que divide um círculo?</h1>
+
+        <div class="alternativas4" >
+            <button class="resposta4 errado">diagonal</button>
+            <button class="resposta4 errado">corda</button>
+            <button class="resposta4 errado">diâmetro</button>
+            <button class="resposta4 certo4">raio</button>
+        </div>
+
+        <p class="quemfez">Feito por Samuel Vinicius 2024</p>
+    </div>
+
+    <div class="quest5 errouvaisumir" style="display: none;">
+        <button class="numbquest5">5.</button>
+        <h1 class="question5">Qual é o resultado de 10 - 6 x 2 ?</h1>
+
+        <div class="alternativas5" >
+            <button class="resposta5 errado">2</button>
+            <button class="resposta5 errado">-12</button>
+            <button class="resposta5 errado">12</button>
+            <button class="resposta5 certo5">-2</button>
+        </div>
+
+        <p class="quemfez">Feito por Samuel Vinicius 2024</p>
+    </div>
+
+    <div class="quest6 errouvaisumir" style="display: none;">
+        <button class="numbquest6">6.</button>
+        <h1 class="question6">Qual é o resultado de 17 + 8 - 3?</h1>
+
+        <div class="alternativas6" >
+            <button class="resposta6 certo6">22</button>
+            <button class="resposta6 errado">12</button>
+            <button class="resposta6 errado">19</button>
+            <button class="resposta6 errado">15</button>
+        </div>
+
+        <p class="quemfez">Feito por Samuel Vinicius 2024</p>
+    </div>
+
+    <div class="quest7 errouvaisumir" style="display: none;">
+        <button class="numbquest7">7.</button>
+        <h1 class="question7">Qual é o resultado de 25% de 80?</h1>
+
+        <div class="alternativas7" >
+            <button class="resposta7 errado">15</button>
+            <button class="resposta7 errado">25</button>
+            <button class="resposta7 certo7">20</button>
+            <button class="resposta7 errado">23</button>
+        </div>
+
+        <p class="quemfez">Feito por Samuel Vinicius 2024</p>
+    </div>
+
+    <div class="quest8 errouvaisumir" style="display: none;">
+        <button class="numbquest8">8.</button>
+        <h1 class="question8">Qual é a fórmula para calcular a área de um círculo?</h1>
+
+        <div class="alternativas8" >
+            <button class="resposta8 errado">A = (B+b)*h/2</button>
+            <button class="resposta8 errado">A = (b*h)/2</button>
+            <button class="resposta8 errado">A = pi*r*2</button>
+            <button class="resposta8 certo8">A = pi*r^(2)</button>
+        </div>
+
+        <p class="quemfez">Feito por Samuel Vinicius 2024</p>
+    </div>
+
+    <div class="quest9 errouvaisumir" style="display: none;">
+        <button class="numbquest9">9.</button>
+        <h1 class="question9">Se x = 3, qual é o valor de 2x + 4?</h1>
+
+        <div class="alternativas9" >
+            <button class="resposta9 certo9">10</button>
+            <button class="resposta9 errado">9</button>
+            <button class="resposta9 errado">11</button>
+            <button class="resposta9 errado">8</button>
+        </div>
+
+        <p class="quemfez">Feito por Samuel Vinicius 2024</p>
+    </div>
+
+    <div class="quest10 errouvaisumir" style="display: none;">
+        <button class="numbquest10">10.</button>
+        <h1 class="question10">2x - 4 = 10, qual é o valor de "x"?</h1>
+
+        <div class="alternativas10" >
+            <button class="resposta10 errado">9</button>
+            <button class="resposta10 certo10">7</button>
+            <button class="resposta10 errado">11</button>
+            <button class="resposta10 errado">13</button>
+        </div>
+
+        <p class="quemfez">Feito por Samuel Vinicius 2024</p>
+    </div>
+
+    
+    <div class="you-win" style="display: none;">
+        <h1 class="txt10">Você completou o QUIZ, parabéns!</h1>
+    </div>
+
+    <div class="you-wrong" style="display: none;">
+        <h1 class="txt10">você errou!</h1>
+        <button class="restart">recomeçar</button>
+    </div>
+    
+    <script src="./src/js/index.js"></script>
+</body>
+    
+</html>

@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulodogame{
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.opcoes{
+    margin: auto;
+    display: block;
+    width: 180px;
+    height: 70px;
+    margin-bottom: 15px;
+    border: 4px solid #6e2503;
+    background-color: #be723b;
+}
+
+.opcoes:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    border: 4px solid #501c04;
+    background-color: #995c30;
+
+}
+
+.cerebrocartoon{
+    width: 100px;
+    height: 70px;
+    margin: 0px 35px;
+}
+
+.nomedogame{
+    text-align: center;
+    
+}
+
+.numbquest1,
+.numbquest2,
+.numbquest3,
+.numbquest4,
+.numbquest5,
+.numbquest6,
+.numbquest7,
+.numbquest8,
+.numbquest9,
+.numbquest10,
+.numbquest11,
+.numbquest12,
+.numbquest13,
+.numbquest14,
+.numbquest15{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #a06593;
+}
+
+.question1,
+.question2,
+.question3,
+.question4,
+.question5,
+.question6,
+.question7,
+.question8,
+.question9,
+.question10,
+.question11,
+.question12,
+.question13,
+.question14,
+.question15{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.alternativas1,
+.alternativas2,
+.alternativas3,
+.alternativas4,
+.alternativas5,
+.alternativas6,
+.alternativas7,
+.alternativas8,
+.alternativas9,
+.alternativas10,
+.alternativas11,
+.alternativas12,
+.alternativas13,
+.alternativas14,
+.alternativas15{
+    width: 400px;
+    text-align: center;
+    margin: auto; 
+    
+}
+
+.resposta1,
+.resposta2,
+.resposta3,
+.resposta4,
+.resposta5,
+.resposta6,
+.resposta7,
+.resposta8,
+.resposta9,
+.resposta10,
+.resposta11,
+.resposta12,
+.resposta13,
+.resposta14,
+.resposta15{
+    display: inline-block;
+    margin: 15px 15px;
+    width: 150px;
+    height: 60px;  
+    cursor: pointer;
+}
+
+.quemfez{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.txt10{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.restart{
+    margin: auto;
+    display: block;
+}
+
+.terminei{
+    width: 130px;
+    height: 50px;
+}
